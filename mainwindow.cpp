@@ -10,6 +10,10 @@ MainWindow::MainWindow(QWidget *parent) :
             SIGNAL(valueChanged(int)),
             ui->progressBar,
             SLOT(setValue(int)));
+    disconnect(ui->horizontalSlider,
+               SIGNAL(valueChanged(int)),
+               ui->progressBar,
+               SLOT(setValue(int)));
 }
 
 MainWindow::~MainWindow()
