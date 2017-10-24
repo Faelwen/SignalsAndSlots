@@ -65,18 +65,18 @@
  <resources/>
  <connections>
   <connection>
-   <sender>progressBar</sender>
+   <sender>horizontalSlider</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider</receiver>
+   <receiver>progressBar</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>83</x>
-     <y>77</y>
+     <x>96</x>
+     <y>190</y>
     </hint>
     <hint type="destinationlabel">
-     <x>85</x>
-     <y>190</y>
+     <x>154</x>
+     <y>74</y>
     </hint>
    </hints>
   </connection>
